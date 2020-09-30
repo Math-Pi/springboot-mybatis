@@ -41,7 +41,7 @@ Spring Boot 会自动加载 `spring.datasource.*` 相关配置，数据源就会
 
 ```java
 @SpringBootApplication
-@MapperScan("com.neo.mapper")
+@MapperScan("com.mybatis.mapper")
 public class MybatisAnnotationApplication {
 
 	public static void main(String[] args) {
